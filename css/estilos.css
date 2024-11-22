@@ -1,0 +1,592 @@
+/* Estilos */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ @font-face {
+            font-family: Verlag;
+            src: url('/font/MyriadPro-Regular.otf'), 
+        }
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.em;
+    color: #024A86;
+    background: #024A86;
+    font-family:  familia de fuentes: 'Andada Pro', serif;
+    font-style: normal;
+    
+	
+}
+
+img{
+    height: auto;
+    border-radius: 0.5px;
+}
+
+a{
+    text-decoration-style: dashed
+    color: #000000;
+	font-weight: bold;
+}
+
+
+.color1{
+    background: #FFFFFF; 
+}
+
+.color2{
+    background: #FFFFFF;
+}
+
+
+/* Grilla */
+
+.section{
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.col{
+    display: block;
+    float: left;
+
+}
+
+.col:first-child{
+    margin-left: 0;
+}
+
+.span_3_of_3{
+    width: 100%;    
+}
+
+
+.span_2_of_3{
+    width: 66.1%;    
+}
+
+
+.span_1_of_3{
+    width: 32.2%;    
+}
+
+
+
+/*encabezado navegacion*/
+
+header{
+    max-width: 200%;
+    background-color: #FFFFFF;
+    xbackground-image: url("/img/BG_Cover.jpg");
+    xbackground-repeat: no-repeat;
+    xbackground-size: cover;
+    padding: 40px;
+}
+
+header h1{
+    color: #fffFFFFF;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+}
+
+header h2{
+    color: #d8d8d8;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 200;
+    margin: 0px;
+}
+
+header h2:hover{
+    color: #FFFFFF; 
+}
+
+nav{
+    width: 100%;
+    background-color: #c0c0c0;
+    color: black;
+    border-bottom:1px solid #c7c7c7;
+}
+
+.logo{
+    width: 200px;
+	height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    xbackground-color: pink;
+    padding: 3px;
+}
+
+.cont-logo{
+    width: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+     
+}
+
+.redes{
+    width: 220px;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.center{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+.pay{
+    width: 100px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap
+    justify-content: space-between;
+    border-radius: 100px;
+}
+
+.cont-logo2{
+    width: 320px;
+	height: 320px;
+    margin: 2px;
+    border-radius: 90px;
+    background-color: aqua;
+}
+
+
+.cont-logo h1{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+}
+
+.cont-logo h2{
+    color: #aaaaaa;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.perfil{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: max-height 0.5s;
+}
+
+
+.nav-item{
+    display: inline-block;
+    padding: 15px;
+    font-weight: 100;
+    font-size: 1.2em;
+    
+}
+
+.nav-active,.nav-item:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,.2);
+    border-bottom: 2px solid rgba(255,255,255,.8);
+}
+
+.menu-bar{
+    height: 3.5em;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fffffff
+    text-align: left;
+    padding: 15px 20px;
+    color: white;
+    font-size: 1.4em;
+    display: none;
+}
+
+.hamburger-icon{
+    float: right;
+    clear: both;
+    margin-top: -5px;
+    font-size: 1.4em;
+}
+
+/* Publicaciones */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+    padding: 0 20px;
+}
+
+
+.blog-post{
+    max-height: 800px;
+    xbackground: #101010;
+    color: black;
+    padding: 80px 30px;
+}
+
+.blog-post2{
+    margin: auto;
+    align-content: center;
+    color: black;
+    padding: 2em 1em;
+}
+.blog-post2 p{
+    margin: auto;
+}
+
+.blog-post3 {
+    padding: 1em;
+    align-content: center;
+    color: black;
+    padding: 2em 5em;
+}
+
+.blog-post3 p{
+    padding: 1em;
+    margin-top: 10%;   
+}
+
+.blog-post3 img{
+    margin: 2em;
+}
+
+.blog-post4{
+    padding: 2em 5em;
+}
+
+
+.blog-post2 ul{
+    text-align: left;
+    padding: 1em ;
+}
+
+
+.icono {
+    height: 40px;    
+}
+
+
+.flex-box{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    
+}
+
+.flex-box p{
+    width: 600px;
+    height: 100px;
+}
+
+.flex-box2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-box2 li{
+    margin: auto;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.flex-box3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 270px;
+    height: 270px;
+    margin: auto;
+    align-content: space-between;
+}
+
+.flex-box3 p{
+    display: flex;
+    margin: auto; 
+}
+
+.section2{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+}
+
+.section-flex{
+    margin: 2em auto ;
+    display: block;
+}
+
+
+.img-locate img{
+    width: 100%;
+}
+
+
+
+.blog-post img{
+    max-width: 100%;
+    margin: 0 0 20px;
+}
+
+.blog-post p{
+    text-align: center;
+    margin: 0 20% 0 20%;
+    font-weight: 00;
+}
+
+.side-post{
+    background: white;
+    margin: 0 auto 1.5em auto;
+    width: 15em;
+    padding: 20px;
+}
+
+.blog-content{
+    font-size: 1em;
+    border-left: 5px solid #0c94e8;
+    padding-left: 15px;
+}
+
+.side-content{
+    font-size: .9em;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.blog-title{
+    font-weight: 500px;
+    font-size: 2.5em;
+    margin-top: 5px;
+}
+
+.date{
+    font-size: 1em;
+    font-weight: 400;
+    color: #9c9c9c;
+    margin-top: -10px;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+
+.url{
+    color: dodgerblue;
+    text-align: center;
+    font-weight: 100;
+}
+
+.post-link{
+    color: #FFFFFF
+    font-style: italic;
+    transition: all 0.4s;
+}
+
+.post-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+table{
+    text-align: left;
+    width: 100%;
+}
+
+
+/* Botton */
+
+.switch{
+    margin-top: 0.8em;
+    text-align: center
+}
+
+.button{
+    display: block;
+    padding: 15px 20px;
+    margin-top: .8em;
+    background: #009acd;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    border-radius: 3px;
+    transition: all .4s ease-in;
+}
+
+.button:hover{
+    background: #FFFFFF
+}
+
+.button2{
+    width: 6em;
+    display: block;
+    margin: auto;
+    padding: 15px 20px;
+    background: #ffffff
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 3px;
+    transition: all .4s ease-in;
+}
+
+.button2:hover{
+    background: #ffffff
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background: #E7D40A;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+.footer-cont{
+    text-align: center;
+    margin: auto;
+}
+
+.footer-cont h1{
+    margin: 10px 0 auto;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.footer-cont h2{
+    font-size: 0.8em;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.emoji{
+    width: 1em;
+}
+
+/* Media Queries Resposive */
+
+/*900*/
+@media screen and (max-width:58em){
+    .col{
+        margin: 1% 0 1% 0;
+    }
+    
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3{
+        width: 100%;
+    }
+    
+    .side-post{
+        width: auto;
+        float: left;
+        margin: -2% auto 8% auto;
+    }
+}
+
+/*@685px*/
+@media screen and (max-width: 42.813em){
+    .side-post{
+        width: auto;
+        padding: 15px;
+        margin: -2% auto 8% auto;
+    }
+    
+    .blog-title{
+        font-size: 1.95em;
+    }
+    
+    .date{
+        font-size: .9em;
+    }
+}
+
+/*@480*/
+
+@media screen and (max-width: 30em){
+    nav ul{
+        max-height: 0;
+    }
+    
+    .reveal{
+        max-height: 19em;
+    }
+    
+    nav ul .nav-item{
+        box-sizing: border-box;
+        text-align: left;
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .menu-bar{
+        display: block;
+    }
+    
+    nav{
+        background: #FFFFFF;
+    }
+    
+    iframe{
+    width: 100%;
+    height: 315px;
+}
+}
+
+/* 380*/
+@media screen and (max-width 23.75em){
+    .blog-content,
+    .post-link{
+        font-size: .9em;
+    }
+    
+    .side-content{
+        font-size: .8em;
+    }
+    
+    .button{
+        padding: 10px 15px;
+    }
+    
+    .nav-item{
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
